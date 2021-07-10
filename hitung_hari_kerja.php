@@ -1,3 +1,4 @@
+<?php
 /*awal hitung hari libur nasional*/
         $jumlah_hari = date('t');
         date_default_timezone_set("Asia/Jakarta");
@@ -27,3 +28,4 @@
         $nasional=count($jumlah_libur_nasional);
         $hari_kerja=($jumlah_hari-($minggu+$nasional));
         /*akhir hitung hari libur nasional*/
+?>
